@@ -1,0 +1,3 @@
+[submodule "lib"]
+	path = lib
+	url = https://viswanathbalusu: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@github.com/ViswanathBalusu/BeagleboneBlackCLib
