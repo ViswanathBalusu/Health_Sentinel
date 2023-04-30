@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.13)
-project(CS695_Health_Monitoring C)
+project(HealthSentinel C)
 
-set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD 99)
 
 # EXPORT COMPILE COMMANDS REQUIRED FOR UNDERSTAND TOOL
 #set(CMAKE_EXPORT_COMPILE_COMMANDS On)
@@ -24,4 +24,8 @@ set(CMAKE_C_STANDARD 11)
 # IF EMULATED BINMARY IS REQUIRED
 #add_compile_definitions(EMULATOR)
 
-add_executable(CS695_Health_Monitoring main.c)
+
+add_executable(HealthSentinel
+        i2c-lcd.c
+        i2c-lcd.h
+        main.c)
